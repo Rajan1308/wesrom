@@ -19,7 +19,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bolder">{{ get_the_title($serviceBlock->ID) }}</h5>
             <p class="card-text">{{ get_the_excerpt($serviceBlock->ID) }}</p>
-            <a href="#" class="service-card-cta">LEARN MORE &xrarr;</a>
+            <a href="{{ get_the_permalink($serviceBlock->ID) }}" class="service-card-cta">{!! _e('LEARN MORE', 'wesrom') !!} &xrarr;</a>
           </div>
         </div>
       </div>
