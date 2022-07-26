@@ -14,6 +14,11 @@ Useing Sage is a WordPress starter theme with a modern development workflow.
 * [Controller](https://github.com/soberwp/controller) for passing data to Blade templates
 * CSS framework (optional): [Bootstrap 5](https://getbootstrap.com/), 
 
+* Addon Featured - 
+* Useing ACF plugin
+* Create CPT for Services
+* Added Sample Service - For short description i have used excerpt  
+
 ## Requirements
 
 Make sure all dependencies have been installed before moving on:
