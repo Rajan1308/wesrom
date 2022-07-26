@@ -1,0 +1,284 @@
+{
+    "key": "group_62dce7faaf258",
+    "title": "Flexible Content Blocks",
+    "fields": [
+        {
+            "key": "field_62dce809a86af",
+            "label": "Flexible Content Blocks",
+            "name": "flexible_content_blocks",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_62dce82c1a7f7": {
+                    "key": "layout_62dce82c1a7f7",
+                    "name": "banner_card_block",
+                    "label": "Banner Card Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62dce84ba86b0",
+                            "label": "Title",
+                            "name": "banner_card_block_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_62dce859a86b1",
+                            "label": "Banner Content",
+                            "name": "banner_card_block_banner_content",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_62dce86fa86b2",
+                            "label": "CTAs",
+                            "name": "banner_card_block_ctas",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62dedd2b51e7d": {
+                    "key": "layout_62dedd2b51e7d",
+                    "name": "grid_block",
+                    "label": "Grid Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62dedd3c51e7e",
+                            "label": "Grid Blocks",
+                            "name": "grid_blocks",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 2,
+                            "layout": "row",
+                            "button_label": "Add Grid Block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_62dedd7e51e7f",
+                                    "label": "Icon",
+                                    "name": "grid_block_icon",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                },
+                                {
+                                    "key": "field_62dedda351e80",
+                                    "label": "Grid Content",
+                                    "name": "grid_content",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "new_lines": ""
+                                },
+                                {
+                                    "key": "field_62deddb251e81",
+                                    "label": "Grid CTAs",
+                                    "name": "grid_ctas",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_62e036d66d0a4": {
+                    "key": "layout_62e036d66d0a4",
+                    "name": "service_block",
+                    "label": "Service Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_62e036e66d0a5",
+                            "label": "Title",
+                            "name": "service_block_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_62e036fa6d0a6",
+                            "label": "Short Description",
+                            "name": "service_block_short_description",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_62e037066d0a7",
+                            "label": "Services",
+                            "name": "service_block_services",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "services"
+                            ],
+                            "taxonomy": "",
+                            "filters": [
+                                "search"
+                            ],
+                            "elements": "",
+                            "min": "",
+                            "max": "",
+                            "return_format": "object"
+                        },
+                        {
+                            "key": "field_62e03bc3667ff",
+                            "label": "Book a Free Consultation",
+                            "name": "book_a_free_consultation",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Component",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1658862571
+}
