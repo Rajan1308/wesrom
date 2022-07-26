@@ -4,6 +4,26 @@
 
 Useing Sage is a WordPress starter theme with a modern development workflow.
 
+
+
+
+## Setup
+
+```shell
+  Find wesrom.sql on root folder
+  import database
+  update site and home url 
+  DP User and Password - root
+
+  wp-admin login - 
+  User - developer
+  Password - developer!@34
+
+```
+
+
+
+
 ## Features
 
 * Addon Featured - 
