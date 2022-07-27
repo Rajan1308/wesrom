@@ -22,7 +22,14 @@ Useing Sage is a WordPress starter theme with a modern development workflow.
 ```
 
 
-
+## Addon Packages
+* Added fortawesome packages usiging commend 
+```shell
+  yarn add @fortawesome/fontawesome-svg-core
+  yarn add @fortawesome/free-solid-svg-icons
+  yarn add @fortawesome/free-regular-svg-icons
+  yarn add @fortawesome/free-brands-svg-icons
+```
 
 ## Features
 

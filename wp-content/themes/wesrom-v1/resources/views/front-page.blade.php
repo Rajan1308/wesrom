@@ -6,9 +6,6 @@
 
 @section('content')
   @if( have_rows('flexible_content_blocks') )
-		@php
-			$rowCount = count( get_field( 'flexible_content_blocks' ) );
-		@endphp
     @while ( have_rows('flexible_content_blocks') )
       @php the_row() @endphp
 				
