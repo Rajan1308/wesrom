@@ -19,10 +19,8 @@
       @elseif( get_row_layout() == 'service_block' )
         @include('components.component-service_block')
 
-      @elseif( get_row_layout() == 'faq' )
-        @include('components.component-faq')
-      @elseif( get_row_layout() == 'try_outout' )
-        @include('components.component-try-outout')
+
+      
       @endif
 
     @endwhile

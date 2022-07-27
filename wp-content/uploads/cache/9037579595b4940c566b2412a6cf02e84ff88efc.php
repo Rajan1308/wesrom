@@ -19,7 +19,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bolder"><?php echo e(get_the_title($serviceBlock->ID)); ?></h5>
             <p class="card-text"><?php echo e(get_the_excerpt($serviceBlock->ID)); ?></p>
-            <a href="#" class="service-card-cta">LEARN MORE &xrarr;</a>
+            <a href="<?php echo e(get_the_permalink($serviceBlock->ID)); ?>" class="service-card-cta"><?php echo _e('LEARN MORE', 'wesrom'); ?> &xrarr;</a>
           </div>
         </div>
       </div>

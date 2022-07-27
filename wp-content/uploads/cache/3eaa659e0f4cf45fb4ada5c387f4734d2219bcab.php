@@ -13,10 +13,8 @@
       <?php elseif( get_row_layout() == 'service_block' ): ?>
         <?php echo $__env->make('components.component-service_block', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-      <?php elseif( get_row_layout() == 'faq' ): ?>
-        <?php echo $__env->make('components.component-faq', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-      <?php elseif( get_row_layout() == 'try_outout' ): ?>
-        <?php echo $__env->make('components.component-try-outout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+      
       <?php endif; ?>
 
     <?php endwhile; ?>
